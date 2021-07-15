@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.site-description{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    border: 2px;
+    border-radius: 50px;
+    display:block;
+    justify-content: space-between;
+}
+.item{
+   border-radius: 20px;
+   background-color: white;
+
+   width: 310px;
+   font-family:sans-serif;
+  
+   justify-content:space-around
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    margin:20px;
+
+background-color: rgb(236, 189, 222);
+
+}
